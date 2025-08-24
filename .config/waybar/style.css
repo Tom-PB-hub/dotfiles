@@ -1,0 +1,69 @@
+/** { Si je ne veux plus utiliser la VT323
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 13px;
+  color: #00ff00;
+  background: transparent;
+}*/
+* {
+  font-family:
+    "DepartureMonoNerdFontMono", "JetBrainsMono Nerd Font", monospace;
+  font-size: 11px;
+  /*letter-spacing: 2px;*/
+  color: #00ff00;
+  background: transparent;
+}
+
+window#waybar {
+  background-color: rgba(0, 0, 0, 0.8); /* Fond sombre, opacité 0.9 */
+  border: 1px solid #00ff00; /* Bordure Matrix */
+  padding: 4px 8px;
+}
+
+#workspaces {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+
+#workspaces button {
+  all: unset; /* Écrase tous les styles */
+  color: #00ff00;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 13px;
+  border: none;
+  margin: 0;
+}
+
+#workspaces button.active {
+  color: #ff0000;
+  background: none;
+  box-shadow: none;
+  text-decoration: underline; /* Facultatif : style actif */
+}
+
+#clock,
+#custom-power,
+#battery,
+#pulseaudio,
+#backlight,
+#custom-battery_ascii,
+#custom-wifi,
+#custom-vpn,
+#wireplumber,
+#network,
+#custom-bluetooth,
+#backlight {
+  padding: 0 0px;
+  border: 0.5px solid #00ff00;
+  margin: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#battery.warning {
+  color: #fa912f;
+}
+#battery.critical {
+  color: #ff0000;
+}

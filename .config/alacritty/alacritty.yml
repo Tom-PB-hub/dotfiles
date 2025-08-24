@@ -1,0 +1,23 @@
+# Alacritty Configuration
+
+# Police
+font:
+  normal:
+    family: "JetBrainsMono Nerd Font"
+    style: Regular
+  bold:
+    family: "JetBrainsMono Nerd Font"
+    style: Bold
+  italic:
+    family: "JetBrainsMono Nerd Font"
+    style: Italic
+  bold_italic:
+    family: "JetBrainsMono Nerd Font"
+    style: Bold Italic
+  size: 10.0
+colors:
+  primary:
+    background: "#000000" # Noir pur
+
+shell:
+  program: /usr/bin/zsh

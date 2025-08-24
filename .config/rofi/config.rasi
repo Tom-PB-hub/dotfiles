@@ -1,0 +1,6 @@
+configuration {
+    font: "VT323 15";
+}
+
+@theme "retro-green"
+
